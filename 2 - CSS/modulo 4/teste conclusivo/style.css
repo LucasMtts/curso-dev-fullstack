@@ -1,0 +1,49 @@
+body {
+    background: rgb(168, 168, 168);
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: -1px;
+    box-shadow: 0px 0px 20px black;
+    margin: 0 725px;
+    border: double;
+    border-color: #00ff5c;
+    border-radius: 70px;
+}
+
+h2 {
+    margin-top: 4px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+.container {
+    position: relative;
+    margin: 3%;
+    text-align: center;
+}
+
+.icons {
+    width: 300px;
+    margin: 30px 60px;
+   
+}
+
+.links {
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    color: chartreuse;
+    margin-top: 186px;
+    background-color: black;
+}

@@ -1,0 +1,28 @@
+body {
+    background: gray;
+}
+
+.subtitulo {
+    color: rgb(34, 34, 34)
+}
+
+#titulo {
+    color: rgb(34, 34, 34);
+}
+
+.foto-perfil {
+    width: 300px;
+    border: 5px double white; /* shorthand */
+    border-radius: 10% 10% 50% 10%;
+    /*
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+     */ 
+}
+
+body {
+    border-style: double;
+    border-color: white;
+    border-radius: 10px;
+}

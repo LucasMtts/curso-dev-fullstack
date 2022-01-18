@@ -1,0 +1,7 @@
+/b, bold, negrito
+
+/strong, negrito, deixa a palavra mais importante
+
+/i, italico
+
+/em, italico, da enfase a palavra

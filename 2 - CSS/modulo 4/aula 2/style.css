@@ -1,0 +1,16 @@
+body {
+    background: gray;
+}
+
+.subtitulo {
+    color: darkred
+}
+
+#titulo {
+    color: red;
+}
+
+.foto-perfil {
+    width: 300px;
+}
+
