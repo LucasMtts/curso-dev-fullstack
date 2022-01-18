@@ -1,0 +1,5 @@
+indentação é uma forma de organizar a leitura do codigo
+
+tab ou ctrl+], empurra uma seção para frente
+
+ctrl+[, empurra para tras
