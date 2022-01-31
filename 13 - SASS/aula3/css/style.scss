@@ -1,0 +1,55 @@
+$color-primary: black ;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: $color-primary;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    .box {
+        padding: 20px;
+        width: 30%;
+        color: black;
+        background-color: white;
+        border-radius:  10px ;
+
+        &.active {
+            background-color: red;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 18px;
+
+            &.hidden {
+                display: none;
+            }
+        }
+
+        a {
+            color: green;
+
+            &:hover {
+                color: yellow;
+
+                & + p.hidden {
+                    display: block;
+                }
+            }
+        }
+    }
+}
