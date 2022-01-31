@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+
+
+}
+
+.header {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 20px 0 ;
+    font-size: 40px;
+    border-bottom: solid;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 15%;
+    background: #000000;
+    padding: 30px;
+    box-shadow: 0 0 20px black;
+}
+
+.content {
+    text-align: center;
+    width: 85%;
+    background: rgb(255, 255, 255);
+}
+
+.content p {
+    display: block;
+    margin-top: 50px;
+}
+
+.content p span {
+    display: block;
+    margin: 10px;
+}
+
+.footer {
+    background-color: gray;
+    text-align: center;
+    padding: 5px 0 ;
+}
+
+.footer img {
+    padding: 0;
+    width: 20px;
+}
+
+.navlist {
+    list-style: none;
+}
+
+.navlist li:hover {
+    background: white;
+    color: black;
+}
+
+.navlist li {
+    margin: 7px 7px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 0 20px 0 20px ;
+}
+
+.calcados {
+    display: flex;
+    justify-content: space-around;
+}
+
+.colunas {
+    padding: 5px 5px;
+    margin: 10px 60px;
+    border: solid;
+    border-radius: 0 20px 0 20px;
+}
+
+
+
+.colunas a .calcas {
+    width: 276px;
+    height: 276px;
+}
+
+.colunas ul {
+    list-style: none;
+}
+
+.colunas ul li {
+    background-color: rgb(237, 238, 240);
+    box-shadow: 0 0 10px rgb(237, 238, 240);
+    color: black;
+}
+
+.colunas ul li:hover h3 {
+    color: rgb(87, 87, 87);
+}
+
+.colunas ul li h3 {
+    font-size: 25px;
+}
+
+.colunas ul li p {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.colunas ul li p span {
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.breaknetMpreto-branco {
+    border: 30px 30px;
+}
+
+.breaknetMpreto-branco .img {
+    text-align: left;
+
+}
+
+.breaknetMpreto-branco .img img{
+    border: 30px 30px;
+    border: solid black;
+    width: 30%;
+    padding: 30px 30px;
+}
