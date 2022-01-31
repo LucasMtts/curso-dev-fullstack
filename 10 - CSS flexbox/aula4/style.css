@@ -1,0 +1,40 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center ;
+    flex-wrap: wrap;
+
+    height: 600px;
+    background: silver;
+}
+
+
+.caixa {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    align-self: center;
+    order: 3;
+    background-color: red;
+}
+
+.blue {
+    align-self: flex-start;
+    order: 2;
+    background-color: blue;
+}
+
+.yellow {
+    align-self: flex-end;
+    order: 1;
+    background-color: yellow;
+}
+
+.green {
+    order: 4;
+    background-color: green;
+}
