@@ -1,0 +1,542 @@
+:root {
+    --color-primary: #FFA3F0 ;
+    --color-secondary: #8b427f ;
+    --color-tertiary: #ffd3f8 ;
+    --color-black-ts-1: rgba(0, 0, 0, 0.4);
+    --color-black-ts-2: rgba(0, 0, 0, 0.6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--color-primary);
+    font-family: 'Caveat', cursive;
+}
+
+.container {
+    margin: 0 10vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*****************
+*     HOME
+*****************/
+
+.home {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    height: 110vh;
+    position: relative;
+
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home .header {
+    align-items: center;
+
+    width: 100%;
+    height: 20vh;
+    background-color: var(--color-black-ts-1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.733);
+}
+
+.home .header .nav ul {
+    padding-top: 2vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.home .header .nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 40px;
+}
+
+.home .header .nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    color: var(--color-primary);
+}
+
+.home .header .nav ul li a:hover {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.home .header .nav ul li img {
+    margin: 0 10px;
+    width: 160px;
+    height: 160px;
+}
+
+@media (max-width: 580px) {
+    .home .header .nav ul li img {
+        display: none;
+    }
+}
+
+
+/*******************
+*    HOME - BANNER
+*******************/
+
+
+.home .banner {
+    text-align: center;
+    margin: 10vh 0;
+    width: 100%;
+}
+
+.home .banner span {
+    color: var(--color-secondary);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.493);
+    box-shadow: 0 0 20px white;
+    border-radius: 50px;
+    font-size: 60px;
+    text-shadow: 0 0 20px var(--color-secondary);
+}
+
+.home .banner div h1 {
+    text-shadow: 0 0 30px var(--color-secondary);
+    font-size: 350px;
+}
+
+.home .banner div img {
+    width: 160px;
+    height: 160px;
+}
+
+
+
+
+/**************************
+*          ABOUT
+**************************/
+
+.about {
+    height: 90vh;
+    background-color: var(--color-secondary);
+}
+
+.about .container {
+    display: flex;
+}
+
+.about .container .aboutText {
+    width: 33%;
+    text-align: center;
+}
+
+.about .container .aboutText h3 {
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.about .container .aboutText p {
+    color: var(--color-tertiary);
+    font-size: 30px;
+    padding: 30px 10px;
+}
+
+.about .container .painel {
+    width: 33%;
+    height: 80vh;
+    text-align: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+.about .container .painel:first-child {
+    margin-top: -45px;
+    background-image: url(../img/backplate.jpeg);
+    background-size: cover;
+}
+
+.about .container .painel:last-child {
+    margin-top: 145px ;
+    background-image: url(../img/backplate2.jpeg);
+    background-size: cover;
+}
+
+.about .container .painel .overlay {
+    background-color: var(--color-black-ts-2);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.about .container .painel .overlay img {
+    width: 60px;
+    height: 60px;
+}
+
+.about .container .painel .overlay h3 {
+    font-size: 40px;
+    width: fit-content;
+    margin: 0 auto 40px auto;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.about .container .painel .overlay .text {
+    font-size: 30px;
+    padding: 13px 0;
+}
+
+.about .container .painel .overlay .text span {
+    color: var(--color-tertiary);
+}
+
+.about .container .painel .overlay2 .text {
+    padding: 28px 0;
+}
+
+
+
+
+/*******************************
+*           SERVICES
+*******************************/
+
+.services {
+    height: 110vh;
+    background-color: var(--color-primary);
+}
+
+.services .container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    text-align: center;
+}
+
+.services .container h3 {
+    margin: 100px auto 0 auto;
+    width: fit-content;
+    color: var(--color-secondary);
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    border-bottom: 2px solid var(--color-secondary);
+}
+
+.services .container img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.services .container .boxes {
+    margin: 25px 0 25px 0;
+    display: flex;
+    justify-content: space-around;
+    color: var(--color-secondary);
+    height: 50%;
+}
+
+.services .container .boxes .box {
+    width: 300px;
+    height: 600px;
+    border: 5px solid var(--color-secondary);
+    border-radius: 10px;
+}
+
+.services .container .boxes .box h4 {
+    border-bottom: 2px solid var(--color-secondary);
+    padding-bottom: 30px ;
+    margin: 30px 30px 0 30px;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.services .container .boxes .box img {
+    width: 60px;
+    height: 60px;
+    margin: 18px 0;
+}
+
+
+.services .container .boxes .box p {
+    font-size: 28px;
+}
+
+
+
+
+
+/***********************************
+*           APPOINTMENT
+***********************************/
+
+.appointment {
+    height: 101vh;
+
+    background-image: url(../img/final-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.appointment .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.appointment .container h3 {
+    margin: 40px auto 0 auto;
+    width: fit-content;
+    color: var(--color-secondary);
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    border-bottom: 2px solid var(--color-secondary);
+}
+
+.appointment .container img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.appointment .container .form {
+    padding: 40px;
+    background-color: var(--color-black-ts-1);
+    border-radius: 30px;
+    box-shadow: 0 0 30px var(--color-black-ts-2);
+}
+
+.appointment .container .form .profile {
+    display: flex;
+    justify-content: space-around;
+}
+
+.appointment .container .form .profile label{
+    font-size: 35px;
+}
+
+.appointment .container .form .profile input {
+    color: var(--color-tertiary);
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    background-color: var(--color-secondary);
+    border: 3px solid var(--color-primary);
+    outline: none;
+}
+
+.appointment .container .form .profile input::placeholder {
+    color: var(--color-tertiary);
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+}
+
+.appointment .container .form .profile select {
+    color: var(--color-tertiary);
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid var(--color-primary);
+    background-color: var(--color-secondary);
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+.appointment .container .form .profile select optgroup option {
+    color: var(--color-primary);
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+}
+
+.appointment .container .form .text{
+    margin: 40px 60px;
+}
+
+.appointment .container .form .text label {
+    font-size: 35px;
+}
+
+.appointment .container .form .text textarea {
+    color: var(--color-tertiary);
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color-secondary);
+    width: 100%;
+    height: 300px;
+    border: 3px solid var(--color-primary);
+    outline: none;
+}
+
+
+
+
+/***************************
+*       GALLERY
+***************************/
+
+.gallery {
+    background-color: var(--color-tertiary);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+}
+
+.gallery h2 {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: fit-content;
+    color: var(--color-secondary);
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    border-bottom: 2px solid var(--color-secondary);
+}
+
+.gallery img {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery .gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60vh;
+    margin: 30px auto;
+}
+
+.gallery .gallery-wrapper div {
+    border: 10px solid var(--color-primary);
+    margin: 6px;
+    width: 350px;
+}
+
+.gallery .gallery-wrapper div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/**********************************
+*            LOCATION
+**********************************/
+
+.location {
+    height: 100vh;
+
+    background-image: url(../img/location.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.location .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.location .container .head {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    background-color: var(--color-black-ts-1);
+    box-shadow: 0 0 20px var(--color-black-ts-2);
+    border-radius: 20px;
+}
+
+.location .container .head .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+    padding: 60px 80px;
+
+    font-size: 30px;
+    text-align: center;
+
+    background-color: var(--color-black-ts-2);
+    box-shadow: 0 0 10px var(--color-black-ts-2);
+    border-radius: 20px;
+}
+
+.location .container .head .info span:first-child {
+    font-family: 'Dancing Script', cursive;
+}
+
+.location .container .head .info span:last-child {
+    color: var(--color-tertiary);
+    font-size: 20px;
+}
+
+.location .container .head .info:nth-child(3) span:last-child {
+    font-size: 30px;
+}
+
+.location .container .map {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: var(--color-black-ts-1);
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--color-black-ts-2);
+}
+
+.location .container .map iframe {
+    width: fit-content;
+    margin: 40px;
+    width: 96%;
+    border-radius: 20px;
+}
+
+
+
+/******************************
+*          FOOTER
+******************************/
+
+.footer {
+    height: 200px;
+    background-color: var(--color-secondary);
+}
+
+.footer div {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer div img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer div h5 {
+    font-size: 30px;
+}
