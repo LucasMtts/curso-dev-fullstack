@@ -1,0 +1,15 @@
+body {
+    background: url(download.jpeg)
+}
+
+
+ul {
+    background: gray;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+ul li {
+    margin: 0 20px;
+    display: inline;
+}

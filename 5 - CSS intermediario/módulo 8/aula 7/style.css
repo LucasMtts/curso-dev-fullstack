@@ -1,0 +1,36 @@
+
+::selection {
+    color: red;
+    background: black;
+}
+
+
+
+p::first-line {
+    color: blue;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+h1::before {
+    background: url(facebook-logo.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: "";
+    margin: 0 20px;
+}
+
+h1::after {
+    background: url(facebook-logo.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: "";
+    margin: 0 20px;
+}

@@ -1,0 +1,29 @@
+.exemplo p.red {
+    color: red;
+}
+
+.margin {
+    margin: 50px;
+}
+
+h1, h2, h3 { /* pega comandos ao msm tempo */
+    color: blue;
+}
+
+.exemplo2 > p { /* pega apenas o filho da classe pai */
+    color: blue;
+}
+
+.exemplo {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.exemplo3 + p { /* pega o primeiro irmao após a classe */
+    color: red;
+}
+
+.exemplo4 ~ p { /* pega todos os irmaos da classe */
+    color: red;
+}

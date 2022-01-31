@@ -1,0 +1,40 @@
+p {
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.aa {
+    font-size: 30px;
+    color: rgb(128, 0, 0);
+    text-align: justify;
+    font-style: italic;
+    word-spacing: 20px;
+}
+
+.aaa {
+    font-size: 30px;
+    color: rgb(50, 0, 143);
+    text-align: justify;
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 70px;
+}
+
+.aaaa {
+    font-size: 30px;
+    color: green;
+    text-align: justify;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 20px;
+}
+
+h1 {
+    text-shadow: 0 0 20px black;
+}
